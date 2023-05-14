@@ -3,7 +3,7 @@
 public class Person {
 
     private String name; 
-    private int age; 
+    private LocalDate birthday; 
     private String studying; 
     private boolean isCertified;
     private List<String> certifications = new ArrayList<>();
@@ -19,7 +19,7 @@ public class Presentation {
         Person felipeBrandao = new Person();
         
         felipeBrandao.setName("Felipe Brandão");
-        felipeBrandao.setAge(23);
+        felipeBrandao.setBirthday(LocalDate.of(1997, 09, 03));
         felipeBrandao.setStudying("Análise e Desenvolvimento de Sistemas");
         felipeBrandao.setCertified(true);
         felipeBrandao.getCertifications().add("Oracle Certified Associate, Java SE 8 Programmer");
@@ -33,7 +33,7 @@ public class Presentation {
 
   ##
 
-- 👔 Atualmente estou trabalhando na [Muralis Tecnologia](https://muralis.com.br/) como Desenvolvedor de Sistemas II;
+- 👔 Atualmente estou trabalhando na [Muralis Tecnologia](https://muralis.com.br/) como Analista Desenvolvedor Jr.;
 - 👨‍💻 Estou dedicando os meus estudos atualmente para Java, Spring e React;
 
  <div>
